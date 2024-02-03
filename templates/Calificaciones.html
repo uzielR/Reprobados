@@ -1,0 +1,87 @@
+{% extends 'plantilla.html' %}
+
+{% block body %}
+
+<h1 class="display-1 text-center m-5">Calificaciones</h1>
+<div class="container col-md-10 card shadow">
+    <h1 class="text-center py-2">Datos del Alumno</h1>
+    <div class="row py-3">
+        <div class="col">
+            <div class="md-3">
+                <label for="form-select" class="form-label">Nombre del Alumno:</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione el alumno</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Apellido Paterno</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" >
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Apellido Materno</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" >
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Cuatrimestre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+    </div>
+    <h1 class=" text-center">Calificaciones</h1>
+    
+    <table class="table   text-center py-2 ">
+        <thead>
+            <tr class="table-active">
+                <th scope="col">Materias</th>
+                <th scope="col">Calificacion Parcial 1</th>
+                <th scope="col">Calificacion Parcial 2</th>
+                <th scope="col">Calificacion Parcial 3</th>
+                <th scope="col">Calificacion Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col" class="table-active">Tecnologias de Virtualización</th>
+                <th>hol</th>
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Sistemas Inteligentes</th>
+                
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Diseño de Interfaces</th>
+                
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Gestión de Desarrollo de Software</th>
+                
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Administración de Proyectos de TI</th>
+                
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Tecnologías y Aplicación en Internet</th>
+                
+            </tr>
+            <tr>
+                <th scope="col" class="table-active">Ingles</th>
+                
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+
+{% endblock %}

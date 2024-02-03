@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(230, 229, 222);
+}
+.navbar{
+    height: 80px;
+    background-color: rgb(17, 17, 56);
+    
+}
+.btn-btn1{
+    background-color: rgb(17, 17, 56);
+}
+.logo{
+    height: 70px;
+}

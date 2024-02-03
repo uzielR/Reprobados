@@ -1,0 +1,46 @@
+{% extends 'plantilla.html' %}
+
+{% block body %}
+    <h1 class="display-1 text-center m-5">Registro</h1>
+    <div class="container col-md-7 py-2 ">
+        <div class="container card shadow">
+            <div class="row py-2">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre del alumno" required>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Apellido Paterno</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el apellido Paterno del alumno" required>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Apellido Materno</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el apellido Materno del alumno" required>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Cuatrimestre</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el Cuatrimestre" required>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-grid gab py-3">
+                <button type="submit" class="btn btn-outline-primary"><i class="bi bi-floppy"></i> Registrar</button>
+        
+            </div>
+        </div>
+        
+    </div>
+
+    
+{% endblock %}
